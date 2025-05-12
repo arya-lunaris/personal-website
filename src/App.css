@@ -7,9 +7,15 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #fff; 
-  color: #333; 
-  padding-top: 60px; 
+  background-color: #fff;
+  color: #333;
+  margin-top: 0; 
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  flex-direction: column;
 }
 
 h1, h2 {
@@ -92,6 +98,8 @@ main {
   bottom: 0;
   width: 100%;
   z-index: 1000;
+  left: 0;  
+  right: 0; 
 }
 
 @media (max-width: 768px) {
