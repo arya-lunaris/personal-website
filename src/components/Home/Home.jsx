@@ -11,14 +11,18 @@ const Home = () => {
 
   return (
     <section id="home">
-      <img
-        src="https://imgur.com/4YSGf5h.png"
-        alt="Profile"
-        className="profile-image"
-      />
-      <h1 className="header">Arya Ram</h1>
-      <h2>Welcome</h2>
-      <p>I'm a junior developer with a passion for building clean and user-friendly websites.</p>
+      <div className="profile-section">
+        <img
+          src="https://imgur.com/4YSGf5h.png"
+          alt="Profile"
+          className="profile-image"
+        />
+        <h1 className="header">Arya Ram</h1>
+        <h2>Welcome</h2>
+        <p>I'm a junior developer with a passion for building clean and user-friendly websites.</p>
+      </div>
+
+      <hr className="profile-divider" /> 
 
       <div className="featured-projects">
         <h3 onClick={handleNavigate} style={{ cursor: 'pointer' }}>

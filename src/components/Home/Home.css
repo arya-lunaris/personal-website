@@ -2,8 +2,9 @@
   text-align: center;
   padding: 4rem 2rem;
   border-radius: 10px;
-  max-width: 800px;
-  margin: 5rem auto;
+  max-width: 100%;
+  margin: 5rem 0;
+  background-color: #fff;
 }
 
 #home h1.header {
@@ -28,43 +29,50 @@
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .featured-projects {
-    margin-top: 4rem;
-    text-align: center;
-  }
-  
-  .featured-projects h3 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    color: #333;
-  }
-  
-  .project-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-  }
-  
-  .project-gallery img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .project-gallery img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-  }
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -40px;
+}
+
+.profile-divider {
+  width: 100%;
+  margin: 2rem 0;
+  border: 1px solid #ccc;
+}
+
+.featured-projects {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.featured-projects h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project-gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}

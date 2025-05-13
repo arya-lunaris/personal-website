@@ -8,9 +8,7 @@ const Projects = () => {
       <div className="project-list">
 
         <div className="project">
-          <h3 className="project-title">
-            <a href="https://psquest.netlify.app/" target="_blank" rel="noopener noreferrer">PSQuest</a>
-          </h3>
+          <h3 className="project-title">PSQuest</h3>
           <a href="https://psquest.netlify.app/" target="_blank" rel="noopener noreferrer">
             <img src="https://imgur.com/rHGJUW1.png" alt="PSQuest" className="project-image" />
           </a>
@@ -23,9 +21,7 @@ const Projects = () => {
         </div>
 
         <div className="project">
-          <h3 className="project-title">
-            <a href="https://app-toonder.netlify.app/" target="_blank" rel="noopener noreferrer">Toonder</a>
-          </h3>
+          <h3 className="project-title">Toonder</h3>
           <a href="https://app-toonder.netlify.app/" target="_blank" rel="noopener noreferrer">
             <img src="https://imgur.com/XJc2So8.png" alt="Toonder" className="project-image" />
           </a>
@@ -38,9 +34,7 @@ const Projects = () => {
         </div>
 
         <div className="project">
-          <h3 className="project-title">
-            <a href="https://stranger-tales.netlify.app/" target="_blank" rel="noopener noreferrer">Scary Stories App</a>
-          </h3>
+          <h3 className="project-title">Scary Stories App</h3>
           <a href="https://stranger-tales.netlify.app/" target="_blank" rel="noopener noreferrer">
             <img src="https://imgur.com/y4os3JF.png" alt="Scary Stories App" className="project-image" />
           </a>
@@ -52,9 +46,7 @@ const Projects = () => {
         </div>
 
         <div className="project">
-          <h3 className="project-title">
-            <a href="https://arya-lunaris.github.io/game-project-wordle/" target="_blank" rel="noopener noreferrer">Wordle</a>
-          </h3>
+          <h3 className="project-title">Wordle</h3>
           <a href="https://arya-lunaris.github.io/game-project-wordle/" target="_blank" rel="noopener noreferrer">
             <img src="https://imgur.com/IQOoqH9.png" alt="Wordle Clone" className="project-image" />
           </a>
