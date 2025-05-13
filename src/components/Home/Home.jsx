@@ -11,15 +11,22 @@ const Home = () => {
 
   return (
     <section id="home">
-      <div className="profile-section">
-        <img
-          src="https://imgur.com/4YSGf5h.png"
-          alt="Profile"
-          className="profile-image"
-        />
-        <h1 className="header">Arya Ram</h1>
-        <h2>Welcome</h2>
-        <p>I'm a junior developer with a passion for building clean and user-friendly websites.</p>
+      <div className="profile-content">
+        <div className="profile-text">
+          <p>Hello World, my name is</p>
+          <h1 className="header">Arya Ram</h1>
+          <p>I'm a junior developer.</p>
+        </div>
+        <div className="profile-image-wrapper">
+          <img
+            src="https://imgur.com/4YSGf5h.png"
+            alt="Profile"
+            className="profile-image"
+          />
+        </div>
+        <div className="profile-text-right">
+          <p>Full stack developer who loves building things on the web. Check out my portfolio below.</p>
+        </div>
       </div>
 
       <hr className="profile-divider" /> 

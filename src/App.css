@@ -28,9 +28,9 @@ a {
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #060606;
   color: #fff;
-  padding: 1rem;
+  padding: 1rem 2rem; 
   position: fixed; 
   top: 0;
   left: 0;
@@ -40,6 +40,18 @@ a {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
+}
+
 .navbar h1 {
   font-size: 1.8rem;
 }
@@ -47,7 +59,11 @@ a {
 .navbar nav ul {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .navbar nav ul li {
@@ -81,16 +97,17 @@ a {
 }
 
 .footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #F5F5F5;
+  color: gray;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 1000;
   left: 0;  
   right: 0; 
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
