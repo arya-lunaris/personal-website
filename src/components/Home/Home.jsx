@@ -19,13 +19,13 @@ const Home = () => {
         </div>
         <div className="profile-image-wrapper">
           <img
-            src="https://imgur.com/4YSGf5h.png"
+            src="https://imgur.com/PV7UkWa.png"
             alt="Profile"
             className="profile-image"
           />
         </div>
         <div className="profile-text-right">
-          <p>Full stack developer who loves building things on the web. Check out my portfolio below.</p>
+          <p>Full stack developer who loves building things on the web, check out my portfolio below.</p>
         </div>
       </div>
 
