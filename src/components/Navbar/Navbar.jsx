@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav>
         <ul>
           <li className="navbar-logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
-            <img src="https://imgur.com/RUYcMSs.png" alt="Logo" />
+            <img src="https://imgur.com/Z5P2t3z.png" alt="Logo" />
           </li>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>

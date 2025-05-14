@@ -10,7 +10,7 @@
   font-size: 3rem;
   color: #222;
   margin-bottom: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #home h2 {
@@ -80,6 +80,7 @@
   font-size: 1.8rem;
   margin-bottom: 2rem;
   color: #333;
+  font-weight: 450;
 }
 
 .project-gallery {
@@ -122,4 +123,8 @@
     flex-direction: column;
     gap: 1rem;
   }
+}
+
+.featured-projects h3:hover {
+  color: #B9A7F5;
 }
