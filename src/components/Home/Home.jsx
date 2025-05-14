@@ -33,9 +33,7 @@ const Home = () => {
 
       <div className="projects-container">
         <div className="featured-projects">
-          <h3 onClick={handleNavigate} style={{ cursor: 'pointer' }}>
-            Featured Projects
-          </h3>
+          <h3>Featured Projects</h3>
           <div className="project-gallery">
             <a href="https://psquest.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img src="https://imgur.com/rHGJUW1.png" alt="PSQuest" />
@@ -50,6 +48,9 @@ const Home = () => {
               <img src="https://imgur.com/IQOoqH9.png" alt="Wordle Clone" />
             </a>
           </div>
+          <button onClick={handleNavigate} className="view-more-projects-button">
+            View More Projects
+          </button>
         </div>
       </div>
     </section>
