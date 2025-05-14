@@ -34,7 +34,7 @@ const Projects = () => {
         </div>
 
         <div className="project">
-          <h3 className="project-title">Scary Stories App</h3>
+          <h3 className="project-title">Stranger Tales</h3>
           <a href="https://stranger-tales.netlify.app/" target="_blank" rel="noopener noreferrer">
             <img src="https://imgur.com/y4os3JF.png" alt="Scary Stories App" className="project-image" />
           </a>

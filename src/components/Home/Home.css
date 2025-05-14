@@ -8,7 +8,7 @@
 
 #home h1.header {
   font-size: 3rem;
-  color: #222;
+  color: #B9A7F5;
   margin-bottom: 1rem;
   font-weight: 400;
 }
@@ -60,13 +60,13 @@
   border-radius: 50%;
   object-fit: cover;
   margin-top: 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(185, 167, 245, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-image:hover {
   transform: scale(1.1); 
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);  
+  box-shadow: 0 6px 20px rgba(185, 167, 245, 0.6);  
 }
 
 .profile-divider {
@@ -104,11 +104,12 @@
   border: 1px solid #ccc;
   background-color: #fff;
   transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(185, 167, 245, 0.4);
 }
 
 .project-gallery img:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(185, 167, 245, 0.6);
 }
 
 @media (max-width: 768px) {

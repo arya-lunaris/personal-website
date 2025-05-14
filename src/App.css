@@ -19,6 +19,7 @@ body {
   align-items: center; 
   min-height: 100vh; 
   flex-direction: column;
+  width: 100vw;
 }
 
 h1, h2 {
@@ -31,7 +32,7 @@ a {
 }
 
 .navbar {
-  background-color: #FFFFFF;
+  background-color: #DBD9F0;
   color: #1A1A1A;
   padding: 1rem 2rem;
   position: fixed;
@@ -41,7 +42,7 @@ a {
   z-index: 1000;
   width: 100%;
   border-bottom: 1px solid #E0E0E0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px rgba(185, 167, 245, 0.4);
 }
 
 .navbar-logo {
@@ -75,7 +76,7 @@ a {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   position: relative;
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .navbar nav ul li a:hover::after {
@@ -93,22 +94,20 @@ a {
 
 .main {
   padding: 2rem;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .footer {
-  background-color: #F5F5F5;
-  color: gray;
+  background-color: #F6F6FF;
+  color: black;
   text-align: center;
   padding: 0.5rem;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(185, 167, 245, 0.4);
   position: fixed;
   bottom: 0;
-  width: 100%;
-  z-index: 1000;
-  left: 0;  
-  right: 0; 
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  left: 0;
 }
 
 @media (max-width: 768px) {
