@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="profile-image-wrapper">
           <img
-            src="https://imgur.com/cLBhUgD.png"
+            src="https://imgur.com/Riq1caz.png"
             alt="Profile"
             className="profile-image"
           />

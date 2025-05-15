@@ -3,7 +3,8 @@
     padding: 2rem;
     border-radius: 8px;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 0 auto;
+    margin-top: 0; 
   }
   
   .about-title {
@@ -18,3 +19,34 @@
     color: #666;
     line-height: 1.6;
   }
+
+.about-languages {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.languages-title {
+  font-size: 1.5rem;
+  color: #B9A7F5;
+  margin-bottom: 1rem;
+  font-weight: 450;
+}
+
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.languages-list li {
+  background-color: #f0ecff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(185, 167, 245, 0.3);
+}
