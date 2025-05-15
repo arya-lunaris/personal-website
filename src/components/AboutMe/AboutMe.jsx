@@ -18,11 +18,11 @@ const About = () => {
           <li><img src="https://imgur.com/WwwosDJ.png" alt="Node.js" />Node.js</li>
           <li><img src="https://imgur.com/0a8UYNH.png" alt="Express" />Express</li>
           <li><img src="https://imgur.com/NTFcpSv.png" alt="Python" />Python</li>
-          <li><img src="https://imgur.com/zkyYi8O.png" alt="Django" />Django</li>
-          <li><img src="https://imgur.com/f5M9ByR.png" alt="MongoDB" />MongoDB</li>
+          <li><img src="https://imgur.com/GS8n25V.png" alt="Django" />Django</li>
+          <li><img src="https://imgur.com/dsBsHeC.png" alt="MongoDB" />MongoDB</li>
           <li><img src="https://imgur.com/oyqrAEC.png" alt="PostgreSQL" />PostgreSQL</li>
-          <li><img src="https://imgur.com/BXTqYoI.png" alt="Git" />Git</li>
-          <li><img src="https://imgur.com/XCk1p37.png" alt="VS Code" />VS Code</li>
+          <li><img src="https://imgur.com/97m20hj.png" alt="Git" />Git</li>
+          <li><img src="https://imgur.com/c6YYrff.png" alt="VS Code" />VS Code</li>
         </ul>
       </div>
     </section>

@@ -1,10 +1,10 @@
 /* About Section */
-.about-section {
+  .about-section {
     padding: 2rem;
     border-radius: 8px;
     max-width: 800px;
-    margin: 0 auto;
-    margin-top: 0; 
+    margin: 0 auto 0 auto; 
+    margin-top: -30px;
   }
   
   .about-title {
@@ -21,7 +21,7 @@
   }
 
 .about-languages {
-  margin-top: 2rem;
+  margin-top: 4rem; 
   text-align: center;
 }
 

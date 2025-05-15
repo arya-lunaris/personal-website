@@ -38,26 +38,26 @@ const Home = () => {
             <div className="project-card">
               <a href="https://psquest.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <img src="https://imgur.com/rHGJUW1.png" alt="PSQuest" />
+                <p className="project-title">PSQuest</p>
               </a>
-              <p className="project-title">PSQuest</p>
             </div>
             <div className="project-card">
               <a href="https://app-toonder.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <img src="https://imgur.com/XJc2So8.png" alt="Toonder" />
+                <p className="project-title">Toonder</p>
               </a>
-              <p className="project-title">Toonder</p>
             </div>
             <div className="project-card">
               <a href="https://stranger-tales.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <img src="https://imgur.com/y4os3JF.png" alt="Stranger Tales" />
+                <p className="project-title">Stranger Tales</p>
               </a>
-              <p className="project-title">Stranger Tales</p>
             </div>
             <div className="project-card">
               <a href="https://arya-lunaris.github.io/game-project-wordle/" target="_blank" rel="noopener noreferrer">
                 <img src="https://imgur.com/IQOoqH9.png" alt="Wordle" />
+                <p className="project-title">Wordle</p>
               </a>
-              <p className="project-title">Wordle</p>
             </div>
           </div>
           <button onClick={handleNavigate} className="view-more-projects-button">
