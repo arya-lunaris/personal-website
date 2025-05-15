@@ -7,8 +7,8 @@ const Contact = () => {
       <h2 className="contact-title">Contact</h2>
       <p className="contact-description">
         Feel free to reach out via email at{' '}
-        <a href="mailto:ari.ram.code@gmail.com" className="contact-link">
-        ari.ram.code@gmail.com
+        <a href="mailto:arya.ram.dev@outlook.com" className="contact-link">
+        arya.ram.dev@outlook.com
         </a>{' '}
         or connect with me on LinkedIn.
       </p>

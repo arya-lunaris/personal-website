@@ -11,18 +11,18 @@ const About = () => {
       <div className="about-languages">
         <h3 className="languages-title">Languages &amp; Tools</h3>
         <ul className="languages-list">
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>Python</li>
-          <li>Django</li>
-          <li>MongoDB</li>
-          <li>PostgreSQL</li>
-          <li>Git</li>
-          <li>VS Code</li>
+          <li><img src="https://imgur.com/oPy4OtF.png" alt="JavaScript" />JavaScript</li>
+          <li><img src="https://imgur.com/tuwJT6J.png" alt="HTML" />HTML</li>
+          <li><img src="https://imgur.com/mTf9551.png" alt="CSS" />CSS</li>
+          <li><img src="https://imgur.com/TyppCpz.png" alt="React" />React</li>
+          <li><img src="https://imgur.com/WwwosDJ.png" alt="Node.js" />Node.js</li>
+          <li><img src="https://imgur.com/0a8UYNH.png" alt="Express" />Express</li>
+          <li><img src="https://imgur.com/NTFcpSv.png" alt="Python" />Python</li>
+          <li><img src="https://imgur.com/zkyYi8O.png" alt="Django" />Django</li>
+          <li><img src="https://imgur.com/f5M9ByR.png" alt="MongoDB" />MongoDB</li>
+          <li><img src="https://imgur.com/oyqrAEC.png" alt="PostgreSQL" />PostgreSQL</li>
+          <li><img src="https://imgur.com/BXTqYoI.png" alt="Git" />Git</li>
+          <li><img src="https://imgur.com/XCk1p37.png" alt="VS Code" />VS Code</li>
         </ul>
       </div>
     </section>
