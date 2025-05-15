@@ -22,8 +22,9 @@
   .contact-link {
     color: #007BFF;
     text-decoration: none;
+    transition: color 0.3s ease;
   }
-  
+
   .contact-link:hover {
-    text-decoration: underline;
+    color: #B9A7F5;
   }

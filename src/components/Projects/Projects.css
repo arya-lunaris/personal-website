@@ -43,10 +43,11 @@
 .project-link {
     color: #007BFF;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .project-link:hover {
-    text-decoration: underline;
+    color: #B9A7F5;
 }
 
 .project-image {
