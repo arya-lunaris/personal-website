@@ -33,7 +33,6 @@ a {
 
 .navbar {
   background-color: #F6F6FF;
-  /* background-color: white; */
   color: #1A1A1A;
   padding: 1rem 2rem;
   position: fixed;
@@ -101,7 +100,6 @@ a {
 
 .footer {
   background-color: #F6F6FF;
-  /* background-color: white; */
   color: black;
   text-align: center;
   padding: 0.5rem;

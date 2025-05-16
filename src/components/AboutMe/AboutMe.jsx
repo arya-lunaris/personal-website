@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="about-section">
       <h2 className="about-title">About Me</h2>
       <p className="about-description">
-        I come from a background in healthcare, where I developed a strong sense of empathy, attention to detail, and a problem-solving mindset. While I found that work meaningful, I’ve always had a deep interest in technology. That passion led me to complete an intensive software engineering bootcamp at General Assembly, where I gained hands-on experience with modern web development tools and practices. I’m especially drawn to front-end design and have a keen eye for creating visually engaging, user-friendly experiences. Looking ahead, I’m excited by the possibility of working in tech and hope to eventually contribute to the gaming industry as well.
+      Coming from backgrounds in healthcare and fashion, I developed a strong sense of empathy, an eye for design, and a natural problem-solving mindset. But I’ve always had a deep affinity for the internet, technology, and gaming — you could say I’m a bit of a nerd at heart. I decided to finally pursue that passion and made a bold career pivot, graduating from General Assembly’s Software Engineering bootcamp in 2025. There, I gained hands-on experience with modern web development tools and practices. I’m especially drawn to front-end development, where I can combine my creative instincts with technical skills to build clean, user-friendly experiences. I’m excited to explore the vast opportunities in tech, and one day, I hope to find a place in the gaming industry.
       </p>
       <div className="about-languages">
         <h3 className="languages-title">Languages &amp; Tools</h3>

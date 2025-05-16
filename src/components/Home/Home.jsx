@@ -14,7 +14,13 @@ const Home = () => {
       <div className="profile-content">
         <div className="profile-text">
           <p>Hello World, my name is</p>
-          <h1 className="header">Arya Ram</h1>
+          <h1
+            className="header"
+            onClick={() => navigate('/about')}
+            style={{ cursor: 'pointer' }}
+          >
+            &lt;Arya Ram&gt;
+          </h1>
           <p>I'm a junior developer.</p>
         </div>
         <div className="profile-image-wrapper">
@@ -25,7 +31,7 @@ const Home = () => {
           />
         </div>
         <div className="profile-text-right">
-          <p>Full stack developer who loves building things on the web, check out my portfolio below.</p>
+          <p>I'm a full stack developer from England who loves building things on the web, check out my portfolio below.</p>
         </div>
       </div>
 
